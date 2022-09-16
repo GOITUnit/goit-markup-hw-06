@@ -639,7 +639,8 @@ p {
   transform: translateY(0);
 }
 
-.portfolio-link:hover .portfolio-thumb-text {
+.portfolio-link:hover .portfolio-thumb-text ,
+.portfolio-link:focus .portfolio-thumb-text {
   transform: translateY(-101%);
 
 }
@@ -716,6 +717,20 @@ p {
 
 }
 
+/* .register-form-group{
+  display: block;
+} */
+
+
+.form-group-item{
+  display: block;
+  align-items: center;
+  
+}
+
+textarea{
+  resize: none;
+}
 
 
 
