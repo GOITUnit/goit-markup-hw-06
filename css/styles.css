@@ -717,14 +717,30 @@ p {
 
 }
 
-/* .register-form-group{
+label{
   display: block;
-} */
+  text-align: center;
+}
+
+.register-form{
+  display: block;
+  align-items:baseline;
+  justify-content: center;
+  
+}
+
+.register-form-title{
+  display: block;
+  text-align: center;
+}
+
+.register-form-group{
+  margin-top: 12px;
+}
 
 
 .form-group-item{
-  display: block;
-  align-items: center;
+  /* position: absolute; */
   
 }
 
