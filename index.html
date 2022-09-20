@@ -315,7 +315,7 @@
           </address>
         </div>
         <div class="join-container">
-          <h2 class="join-title" >приєднуйтесь</h2>
+          <p class="join-title" >приєднуйтесь</p>
           <ul class="list footer-join-list position">
             <li class="item footer-join-item">
               <a class="link footer-join-link" href=""><svg class="footer-icon" width="20" height="20">
@@ -341,15 +341,16 @@
         </div>
 
         <div class="subscribe">
-          <h2 class="join-title">Підпишіться на розсилку
-          </h2>
-          <label class="form-group-item">
+          <p class="join-title">Підпишіться на розсилку
+          </p>
+          <form class="subscribe-invite">
+          <label class="form-group-invite">
             <input class="subscribe-bcg-input" type="email" name="email" placeholder="E-mail">
           </label>
           <button class="subscribe-btn" type="submit">Підписатися <svg class="" width="24" height="24">
             <use href="./icons/symbol-defs.svg#iconsend"></use>
           </svg></button>
-          
+        </form>
         </div>
 
       </div>
@@ -394,7 +395,11 @@
               </label>
 
               <label class="form-group-item-agree">
-                <input type="checkbox" name="agree">
+                <input class="register-form-checkbox visually-hidden" type="checkbox" name="agree">
+                <svg class="register-form-icons" width="16" height="15">
+                  <use class="icon-checked" href="./icons/symbol-defs.svg#iconcheck"></use>
+                  <use class="icon-unchecked" href="./icons/symbol-defs.svg#iconunchek"></use>
+                </svg>
                 <span>Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></span>
               </label>
 
