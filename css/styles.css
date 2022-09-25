@@ -729,6 +729,11 @@ p {
   fill: var(--accent-blue);
 }
 
+.modal-btn:focus{
+  cursor: pointer;
+  fill: var(--icon-bgc);
+}
+
 .register-form{
   text-align: center;
 }
@@ -816,10 +821,10 @@ p {
 
 .form-group-item-agree > input[type="checkbox"]{
   /* appearance: inherit; */
-  width: 16px;
+  /* width: 16px;
   height: 15px;
   margin-right: 8.3px;
-  outline-color: var(--primary-text-cl);
+  outline-color: var(--primary-text-cl); */
 }
 
 .icon-checked {
@@ -904,6 +909,7 @@ border-radius: 4px;
 background-color: var(--footer-bgc);
 text-decoration-color: var(--accent-text-cl);
 color: var(--accent-text-cl);
+padding: 16px;
 }
 
 .subscribe-item{
